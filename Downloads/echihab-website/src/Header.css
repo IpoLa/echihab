@@ -1,0 +1,13 @@
+.header {
+    /* height: 100%; */
+    /* width: 100%; */
+    max-width: 1350px;
+    margin-bottom: -5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_cover {
+    width: 1350px;
+}

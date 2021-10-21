@@ -1,0 +1,26 @@
+.body_Parag {
+    margin-top: 20px;
+    max-width: 1000px;
+    direction: rtl;
+    border: 1px solid;
+    background-color: ghostwhite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+.body_Parag > h1 {
+    margin-right: 30px;
+}
+
+.body_Parag > p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.body {
+    margin-bottom: 50px;
+}

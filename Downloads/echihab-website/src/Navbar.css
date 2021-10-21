@@ -1,0 +1,56 @@
+.navbar {
+    /* transform: translateY(0%); */
+    /* display: inline; */
+    display: block;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 100px;
+    /* border: 1px solid; */
+    width: 100% !important;
+    height: 50px;
+    position: -webkit-sticky;
+    margin-top: 0px;
+    background-color: steelblue;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 1350px;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    box-shadow: 1 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar_Center {
+    transform: translateY(50%);
+    text-align: center;
+    /* align-items: center; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: azure;
+}
+
+.navbar_Center > .navbar_Items {
+    transform: translateX(-100%);
+    align-items: center;
+    display: flex;
+    /* position: relative; */
+    text-align: center;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.navbar_Items > .navbar_Item > p {
+    /* text-decoration: underline; */
+    cursor: pointer;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+
