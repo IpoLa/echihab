@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/echihab/static/css/main.7dbf850a.chunk.css",
-    "main.js": "/echihab/static/js/main.17eef5af.chunk.js",
-    "main.js.map": "/echihab/static/js/main.17eef5af.chunk.js.map",
+    "main.js": "/echihab/static/js/main.a4947efc.chunk.js",
+    "main.js.map": "/echihab/static/js/main.a4947efc.chunk.js.map",
     "runtime-main.js": "/echihab/static/js/runtime-main.411fd43f.js",
     "runtime-main.js.map": "/echihab/static/js/runtime-main.411fd43f.js.map",
     "static/js/2.b18d3b2f.chunk.js": "/echihab/static/js/2.b18d3b2f.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.411fd43f.js",
     "static/js/2.b18d3b2f.chunk.js",
     "static/css/main.7dbf850a.chunk.css",
-    "static/js/main.17eef5af.chunk.js"
+    "static/js/main.a4947efc.chunk.js"
   ]
 }
