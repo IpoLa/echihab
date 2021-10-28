@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import dataSlider from './dataSlider'
 import Button from '@mui/material/Button';
 import {Link} from 'react-router-dom'
@@ -18,21 +18,21 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 export default function RowAndColumnSpacing() {
-    const history = useHistory();
-    const [slideIndex, setSlideIndex] = useState(1)
+    // const history = useHistory();
+    // const [slideIndex, setSlideIndex] = useState(1)
 
-    const routeChange = index =>{ 
-        let path = `newPath`;         
-        // if(slideIndex !== dataSlider.length){
-        //     setSlideIndex(slideIndex + 1)
-        // } 
-        // else if (slideIndex === dataSlider.length){
-        //     setSlideIndex(1)
-        // }
-        for (var slideIndex = 1; slideIndex < 4; slideIndex++) {
-            history.push(process.env.PUBLIC_URL + `/files/siriusMagazine${slideIndex}.pdf`);
-        }
-    }
+    // const routeChange = index =>{ 
+    //     let path = `newPath`;         
+    //     // if(slideIndex !== dataSlider.length){
+    //     //     setSlideIndex(slideIndex + 1)
+    //     // } 
+    //     // else if (slideIndex === dataSlider.length){
+    //     //     setSlideIndex(1)
+    //     // }
+    //     for (var slideIndex = 1; slideIndex < 4; slideIndex++) {
+    //         history.push(process.env.PUBLIC_URL + `/files/siriusMagazine${slideIndex}.pdf`);
+    //     }
+    // }
   return (
     <Box sx={{ width: '100%', height: '100%' }} 
         style={{ 
@@ -42,7 +42,7 @@ export default function RowAndColumnSpacing() {
             marginLeft: "auto", 
             marginRight: "auto" 
         }}>
-            <h1 style={{ marginRight: "100px", marginTop: "20px", marginBottom: "20px" }} >أعداد المجلة</h1>
+            <h1 style={{ color:"rgb(13, 134, 233)" ,marginRight: "100px", marginTop: "20px", marginBottom: "20px" }} >أعداد المجلة</h1>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} 
         style={{ 
             zIndex: "1", 
@@ -68,14 +68,16 @@ export default function RowAndColumnSpacing() {
                                 <img 
                                     style={{ borderRadius: "5px", maxWidth: "700px", maxHeight: "300px", transform: "rotate(1deg)"}}
                                     src={process.env.PUBLIC_URL + `/num/num${index + 1}.jpg`} 
+                                    alt=''
                                 />
                                 
                                 <Link 
                                     to={process.env.PUBLIC_URL + `/files/siriusMagazine${index + 1}.pdf`}
+                                    // to="/files/siriusMagazine${index + 1}.pdf"
                                     style = {{ color: "rgb(13, 134, 233)", textDecoration: "none" }}
                                 >
                                     <h1>{obj.title}</h1>
-                                    <p style={{ color: "black" }}>{obj.subTitle}</p>
+                                    <p style={{ color: "#212832" }}>{obj.subTitle}</p>
                                     <Button style={{ backgroundColor: "rgb(13, 134, 233)", color: "white", marginTop: "8px" }}>
                                         تحميل المجلة
                                     </Button>

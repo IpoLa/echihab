@@ -1,0 +1,40 @@
+.team {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    flex-direction: column;
+    direction: rtl;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h1, p {
+    /* display: block; */
+    direction: rtl;
+    /* margin-bottom: 120px; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    /* display: block; */
+}
+
+.words {
+    margin: 20px;
+}
+
+h1 {
+    color: #2c79fe;
+}
+
+.words > p {
+    color: #212832;
+    font-size: 30px;
+}

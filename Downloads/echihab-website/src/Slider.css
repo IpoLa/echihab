@@ -77,7 +77,7 @@
     background: rgb(32, 32, 32);
   }
 
-  .container-slider > img {
+  .container-slider > .image {
     position: inherit;
     top: 10px;
     left: 700px;

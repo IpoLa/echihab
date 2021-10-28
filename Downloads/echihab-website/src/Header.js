@@ -6,7 +6,7 @@ function Header() {
         <header className='header'>
             <img 
                 className='header_cover' 
-                src="/Capture.PNG" 
+                src={process.env.PUBLIC_URL + `/Capture.PNG`}
                 alt='' 
             />
         </header>

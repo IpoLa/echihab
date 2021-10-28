@@ -9,6 +9,7 @@
     margin-right: auto;
     border-radius: 10px;
     /* align-items: center; */
+    color: #2c79fe;
 }
 
 .body_Parag > h1 {
@@ -19,6 +20,15 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    color: #212832;
+}
+
+.body_English {
+    color: #212832;
+}
+
+.body_Arab > p {
+    color: #212832;
 }
 
 .body {

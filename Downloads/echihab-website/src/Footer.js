@@ -29,23 +29,21 @@ return (
 			<Heading>
                 <img 
 					style={{ height: "50px" }}
-                    src='/logo-echihab-gold.png'
+                    src={process.env.PUBLIC_URL + `/logo-echihab-gold.png`}
                     alt=''
                 />
             </Heading>
-			<FooterLink dir="rtl" href="#">الصفحة الرئيسية</FooterLink>
+			<FooterLink dir="rtl" href="/">الصفحة الرئيسية</FooterLink>
 			<FooterLink  dir="rtl" href="/numbers">أعداد المجلة</FooterLink>
-			<FooterLink href="#">فريق المجلة</FooterLink>
-            <FooterLink href="#">تبرع للمجلة</FooterLink>
-            <FooterLink href="#">إتصل بنا</FooterLink>
+			<FooterLink href="/team">فريق المجلة</FooterLink>
+            <FooterLink href="https://www.paypal.com/donate?token=-_DbW3TGtjrET5eTRpFdbz-lPvjDPerlg_Kc9aA4AtpVy52J0xxO6Btf08foUqsot5yqJz-4zVfQi0de">تبرع للمجلة</FooterLink>
+            {/* <FooterLink href="/contact">إتصل بنا</FooterLink> */}
 		</Column>
-		<Column style={{ marginRight:"-100px", display: "flex", width: "300px" }} >
-			<Heading>تواصل</Heading>
-                <p dir="rtl">
-                    بإمكانكم أيضا التواصل معنا عبر وسائل 
-                    وسائل التواصل الإجتماعي ومشاركتنا 
-                    تطلعاتكم أفكاركم تعليقاتكم, سنسعد بذلك كثيرا,
-                    تحيات فريق المجلة العلمية.
+		<Column style={{ marginRight:"-100px", display: "flex", width: "300px", direction:"rtl" }} >
+			<Heading style={{ marginLeft:"100px" }}>تابعونا</Heading>
+                <p style={{ direction: "rtl" }}>
+				بإمكانكم أيضا التواصل معنا عبر وسائل وسائل التواصل الإجتماعي ومشاركتنا
+				 تطلعاتكم أفكاركم تعليقاتكم, سنسعد بذلك كثيرا, تحيات فريق المجلة العلمية.
                 </p>
 			<div style={{ 
 				direction:"ltr", 
@@ -55,10 +53,10 @@ return (
 				marginTop: "30px",
 				width: "200px"
 			}}>
-				<FooterLink style={{ width: "80px", height: "80px" }} className='Social' href="#">
+				<FooterLink style={{ width: "80px", height: "80px" }} className='Social' href="https://www.facebook.com/SiriusMagazine">
 					<FacebookIcon sx={{ width: 40, height: 40 }} />
 				</FooterLink>
-				<FooterLink className='Social' href="#">
+				<FooterLink className='Social' href="https://www.instagram.com/sirius.algeria/">
 					<InstagramIcon sx={{ width: 40, height: 40 }} />
 				</FooterLink>
 				<FooterLink className='Social' href="#">
@@ -74,25 +72,27 @@ return (
 		<Column>
 			<Heading>عنوان المجلة</Heading>
 			<FooterLink href="#">
-				<p style={{ direction:"ltr" }} >
-					مالك حداد قسنطينة الجزائر
-					contact@siriusalgeria-mag.net
+				<p style={{ direction:"rtl", width:"250px", marginRight:"-60px" }} >
+					وحدة البحث في الوساطة العلمية -CERIST
+					جامعة قسطينة 3	
 				</p>
-				<p>
+				<p style={{ direction:"rtl", width:"250px", marginRight: "-60px" }}>
+					contact@siriusalgeria-mag.net
 					Phone : +213 (0)771 56 06 58
 				</p>
 			</FooterLink>
-			<FooterLink href="#">
+			<FooterLink href="https://www.paypal.com/donate?token=-_DbW3TGtjrET5eTRpFdbz-lPvjDPerlg_Kc9aA4AtpVy52J0xxO6Btf08foUqsot5yqJz-4zVfQi0de">
 				<img 
-					src="/donation.png"
+					src={process.env.PUBLIC_URL + `/donation.png`}
 					alt=""
+					onClick="https://www.paypal.com/donate?token=-_DbW3TGtjrET5eTRpFdbz-lPvjDPerlg_Kc9aA4AtpVy52J0xxO6Btf08foUqsot5yqJz-4zVfQi0de"
 				/>
 			</FooterLink>
 		</Column>
-		<Column style={{ width:"300px" }} >
-			<Heading>لاستقبال الأعداد القادمة, إشترك معنا.</Heading>
+		<Column style={{ width:"310px" }} >
+			<Heading>إشترك معنا ليصلك كل جديد.</Heading>
 			<div style={{ 
-				width:"285px", 
+				width:"300px", 
 				display: "inline-block", 
 				border: "1px solid", 
 				marginBottom: "20px",
@@ -107,25 +107,25 @@ return (
 			<div style={{ display:"inline-block" }}>
 				<FooterLink href="#">
 					<img 
-						src="/ico_sirius.png"
+						src={process.env.PUBLIC_URL + `/ico_sirius.png`}
 						alt=""
 					/>
 				</FooterLink>
 				<FooterLink href="#">
 					<img 
-						src="/ico_rsdt.png"
+						src={process.env.PUBLIC_URL + `/ico_rsdt.png`}
 						alt=""
 					/>
 				</FooterLink>
 				<FooterLink href="#">
 					<img 
-						src="/ico_resunit.png"
+						src={process.env.PUBLIC_URL + `/ico_resunit.png`}
 						alt=""
 					/>
 				</FooterLink>
 				<FooterLink href="#">
 					<img 
-						src="/ico_cerist.png"
+						src={process.env.PUBLIC_URL + `/img/ico_cerist.png`}
 						alt=""
 					/>
 				</FooterLink>
