@@ -72,7 +72,8 @@ export default function RowAndColumnSpacing() {
                                 />
                                 
                                 <Link 
-                                    to={process.env.PUBLIC_URL + `/files/siriusMagazine${index + 1}.pdf`}
+                                    // to={process.env.PUBLIC_URL + `/files/siriusMagazine${index + 1}.pdf`}
+                                    to={{ pathname: process.env.PUBLIC_URL + `/files/siriusMagazine${index + 1}.pdf` }} target="_blank" rel="noopener noreferrer"
                                     // to="/files/siriusMagazine${index + 1}.pdf"
                                     style = {{ color: "rgb(13, 134, 233)", textDecoration: "none" }}
                                 >

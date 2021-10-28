@@ -72,7 +72,7 @@ return (
 		<Column>
 			<Heading>عنوان المجلة</Heading>
 			<FooterLink href="#">
-				<p style={{ direction:"rtl", width:"250px", marginRight:"-60px" }} >
+				<p style={{ direction:"rtl", width:"250px", marginRight:"-60px", fontSize:"15px" }} >
 					وحدة البحث في الوساطة العلمية -CERIST
 					جامعة قسطينة 3	
 				</p>
