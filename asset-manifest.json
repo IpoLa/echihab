@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/echihab/static/css/main.0671516a.chunk.css",
-    "main.js": "/echihab/static/js/main.8007c1aa.chunk.js",
-    "main.js.map": "/echihab/static/js/main.8007c1aa.chunk.js.map",
+    "main.js": "/echihab/static/js/main.39b21d1f.chunk.js",
+    "main.js.map": "/echihab/static/js/main.39b21d1f.chunk.js.map",
     "runtime-main.js": "/echihab/static/js/runtime-main.e5712989.js",
     "runtime-main.js.map": "/echihab/static/js/runtime-main.e5712989.js.map",
-    "static/js/2.7f993ab4.chunk.js": "/echihab/static/js/2.7f993ab4.chunk.js",
-    "static/js/2.7f993ab4.chunk.js.map": "/echihab/static/js/2.7f993ab4.chunk.js.map",
+    "static/js/2.0ac4e235.chunk.js": "/echihab/static/js/2.0ac4e235.chunk.js",
+    "static/js/2.0ac4e235.chunk.js.map": "/echihab/static/js/2.0ac4e235.chunk.js.map",
     "static/js/3.0d3a66e0.chunk.js": "/echihab/static/js/3.0d3a66e0.chunk.js",
     "static/js/3.0d3a66e0.chunk.js.map": "/echihab/static/js/3.0d3a66e0.chunk.js.map",
     "index.html": "/echihab/index.html",
     "static/css/main.0671516a.chunk.css.map": "/echihab/static/css/main.0671516a.chunk.css.map",
-    "static/js/2.7f993ab4.chunk.js.LICENSE.txt": "/echihab/static/js/2.7f993ab4.chunk.js.LICENSE.txt",
+    "static/js/2.0ac4e235.chunk.js.LICENSE.txt": "/echihab/static/js/2.0ac4e235.chunk.js.LICENSE.txt",
     "static/media/left-arrow.53878c51.svg": "/echihab/static/media/left-arrow.53878c51.svg",
     "static/media/right-arrow.8b8fb639.svg": "/echihab/static/media/right-arrow.8b8fb639.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e5712989.js",
-    "static/js/2.7f993ab4.chunk.js",
+    "static/js/2.0ac4e235.chunk.js",
     "static/css/main.0671516a.chunk.css",
-    "static/js/main.8007c1aa.chunk.js"
+    "static/js/main.39b21d1f.chunk.js"
   ]
 }
