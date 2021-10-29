@@ -19,7 +19,7 @@ const dataSlider = [
   {
     id: uuidv4(),
     title: "العدد الرابع",
-    subTitle: "قبس من العلم في كل دار"
+    subTitle: "قبس من العلم في كل بيت"
   },
 ];
 

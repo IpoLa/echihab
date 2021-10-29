@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Body from './Body';
 import Footer from './Footer.js'
 import Number from './Numbers.js'
-import Contact from './Contact.js'
+// import Contact from './Contact.js'
 import Team from './Team.js';
 
 function App() {
@@ -25,12 +25,12 @@ function App() {
             <Team />
             <Footer className='footer' />
           </Route>
-          <Route path="/contact">
+          {/* <Route path="/contact">
             <Header />
             <Navbar className='nav' />
             <Contact />
             <Footer className='footer' />
-          </Route>
+          </Route> */}
           <Route path="/">
             <Header />
             <Navbar className='nav' />

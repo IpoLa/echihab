@@ -9,7 +9,7 @@ function Body() {
 
             <div className='body_Parag'>
                 <h1 style={{ margin:"20px" }}>
-                    ماهي مجلة الشهاب العلمي ؟
+                    مجلة الشهاب العلمي
                 </h1>
                 <div classsName='body_Arab'>
                     <p style={{ margin:"20px", color: "#212832" }}>
@@ -21,7 +21,7 @@ function Body() {
             </div>
             <div className='body_Parag' style={{ direction:"ltr" }}>
                 <h1 style={{ direction:"ltr", margin:"20px" }}>
-                    What is CHIHAB Science Magazine ?
+                    CHIHAB Science Magazine
                 </h1>
                 <div className='body_English'>
                     <p style={{ direction:"ltr", margin:"20px" }}>

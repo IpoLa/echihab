@@ -7,6 +7,7 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import {Link} from 'react-router-dom'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -33,18 +34,17 @@ return (
                     alt=''
                 />
             </Heading>
-			<FooterLink dir="rtl" href="/">الصفحة الرئيسية</FooterLink>
-			<FooterLink  dir="rtl" href="/numbers">أعداد المجلة</FooterLink>
-			<FooterLink href="/team">فريق المجلة</FooterLink>
-            <FooterLink href="https://www.paypal.com/donate?token=-_DbW3TGtjrET5eTRpFdbz-lPvjDPerlg_Kc9aA4AtpVy52J0xxO6Btf08foUqsot5yqJz-4zVfQi0de">تبرع للمجلة</FooterLink>
+			<Link style={{ textDecoration: "none", color: "white" }} dir="rtl" to="/">الصفحة الرئيسية</Link>
+			<Link  style={{ textDecoration: "none", color: "white" }} dir="rtl" to="/numbers/">أعداد المجلة</Link>
+			<Link style={{ textDecoration: "none", color: "white" }} to="/team/" rel="noopener noreferrer">فريق المجلة</Link>
+            <Link style={{ textDecoration: "none", color: "white" }} to={{ pathname: "https://www.paypal.com/donate?token=-_DbW3TGtjrET5eTRpFdbz-lPvjDPerlg_Kc9aA4AtpVy52J0xxO6Btf08foUqsot5yqJz-4zVfQi0de" }} target="_blank" >تبرع للمجلة</Link>
             {/* <FooterLink href="/contact">إتصل بنا</FooterLink> */}
 		</Column>
 		<Column style={{ marginRight:"-100px", display: "flex", width: "300px", direction:"rtl" }} >
 			<Heading style={{ marginLeft:"100px" }}>تابعونا</Heading>
                 <p style={{ direction: "rtl" }}>
-				بإمكانكم أيضا التواصل معنا عبر وسائل وسائل التواصل الإجتماعي ومشاركتنا
-				 تطلعاتكم أفكاركم تعليقاتكم, سنسعد بذلك كثيرا, تحيات فريق المجلة العلمية.
-                </p>
+				يمكنكم أيضا التواصل معنا عبر وسائل وسائل التواصل الاجتماعي ومشاركتنا تطلعاتكم  وأفكاركم وتعليقاتكم التي تُسعدنا، مع تحيات مجلة الشهاب العلميّ
+				</p>
 			<div style={{ 
 				direction:"ltr", 
 				display: "inline", 

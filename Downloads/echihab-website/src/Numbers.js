@@ -42,7 +42,11 @@ export default function RowAndColumnSpacing() {
             marginLeft: "auto", 
             marginRight: "auto" 
         }}>
-            <h1 style={{ color:"rgb(13, 134, 233)" ,marginRight: "100px", marginTop: "20px", marginBottom: "20px" }} >أعداد المجلة</h1>
+            <div style={{ margin: "20px", border: "1px solid",borderColor:"#2c79fe", borderRadius: "20px", marginBottom:"10px", marginRight:"40px", width: "140px", backgroundColor:"#2c79fe" }} >
+              <h1 style={{ fontSize: "20px", marginRight: "10px", marginLeft:"10px", color: "white" }} >
+                  أعداد المجلة
+              </h1>
+            </div> 
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} 
         style={{ 
             zIndex: "1", 
